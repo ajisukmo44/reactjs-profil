@@ -19,6 +19,37 @@
   padding-top:5em;
 }
 
+.resume-right {
+  background:#25A2A6;
+  color: white;
+  padding: 2em;
+}
+.avatar-img2 {
+  height:250px;
+  position: left;
+}
+
+.icon {
+  width:10%;
+  padding-top:1em;
+  padding-bottom:1em;
+}
+.icon2 {
+  width:15%;
+  padding-top:1em;
+  padding-bottom:1em;
+}
+
+.projects-grid{
+  display: flex;
+  
+}
+
+.isi-grid{
+  padding-right: 2em;
+  
+}
+
 .banner-text {
   background-color: #007991;  /* fallback for old browsers */
  
@@ -28,19 +59,11 @@ margin:auto;
 border-radius:10px;
 }
 
-.banner-text h1 {
-  font-size: 44px;
+.banner-text h2 {
+  padding-top:0.5em;
+  font-size: 37px;
   font-weight: bold;
   color: white;
-  margin-top: 20px;
-  }
-
-  .banner-text hr {
-    border-top: 2px dotted white;
-    width: 50%;
-    margin: auto;
-    
-
   }
   .banner-text p {
     color:white;
@@ -58,3 +81,39 @@ border-radius:10px;
   font-size: 5em;
   padding: 4px;
 }
+.contact-body{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top:2em ;
+}
+.contact-grid{
+  background: white;
+  width: 80%;
+  height: 550px;
+  justify-content: center;
+  color:black;
+  padding-top:2em ;
+  padding-left:2em ;
+}
+.contact-grid1{
+  position: right ;
+}
+
+.contact-grid h3 {
+  font-family: 'Anton', sans-serif;
+  position: left;
+}
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width:50%;
+  margin:auto;
+}
+.contact-list i {
+font-size:31px;
+padding-right: 0.5em;
+}
+.contact-list {
+  padding-left: 0em;
+  }

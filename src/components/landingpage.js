@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import foto from './profil.png';
+import foto from './gambar/profil.png';
+import node from './gambar/node-js.png';
+import html from './gambar/html.png';
+import css from './gambar/css.png';
+import bootstrap from './gambar/bootstrap.png';
+import php from './gambar/php.png';
+
 class LandingPage extends Component {
 render(){
 return(
@@ -9,23 +15,15 @@ return(
         <Cell col={12}>
         <img src={foto} className="avatar-img" alt="logo"/>
         <div  className="banner-text">
-        <h1>Freelance Web Developer</h1>
+        <h2>Front End Web Developer</h2>
         <hr/>
-
-        <p>HTML 5 | CSS 3 | Bootstrap 4 | NodeJs | PHP 7 | Mysql</p>
         <div  className="social-links">
-            <a href="#" taget="_blank" rel="nooppener noreferrer">
-                <i className="fa fa-facebook-square" aria-hidden="true"/>
-            </a>
-            <a href="#" taget="_blank" rel="nooppener noreferrer">
-                <i className="fa fa-twitter-square" aria-hidden="true"/>
-            </a>
-            <a href="https://github.com/ajisukmo44" taget="_blank" rel="nooppener noreferrer">
-                <i className="fa fa-github-square" aria-hidden="true"/>
-            </a>
-            <a href="#" taget="_blank" rel="nooppener noreferrer">
-                <i className="fa fa-youtube-square" aria-hidden="true"/>
-            </a>
+        <img src={html} className="icon" alt="logo"/>
+        <img src={css} className="icon" alt="logo"/>
+        <img src={bootstrap} className="icon" alt="logo"/>
+        <img src={node} className="icon" alt="logo"/>
+        <img src={php} className="icon2" alt="logo"/>
+          
         </div>
         </div>
       
