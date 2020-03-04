@@ -1,4 +1,4 @@
-<h2> Simple Web Profil dan Portofolio dengan ReactJs </h2>
+<h2> Simple web profil dan portofolio dengan ReactJs </h2>
 <hr/>
 <h4>menampilkan</h4>
 <ul>
@@ -7,3 +7,5 @@
   <li> Resume </li>
   <li> Contact </li>
   </ul>
+<hr>
+link demo : <a href="http://ajisukmo.tech/">klik di sini</a>
