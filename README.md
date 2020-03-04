@@ -8,4 +8,4 @@
   <li> Contact </li>
   </ul>
 <hr>
-link demo : <a href="http://ajisukmo.tech/">klik di sini</a>
+link demo : <a href="http://ajisukmo.tech/" target="_blank">klik di sini</a>
